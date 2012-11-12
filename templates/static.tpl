@@ -1,0 +1,2 @@
+{* SMARTYðóñî *}
+{$static['body']}
