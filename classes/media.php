@@ -1,4 +1,7 @@
 <?php
+//Media stuff
+//author: Mikhail Chernoskutov
+//date: 14.11.2012
 class media {
 /*русо*/
 	function post_file($src, $name, $description = ""){
@@ -362,7 +365,7 @@ class media {
 			), "teasers", "teasers", $item_id);
 	}
 	function teaser_delete_image($id){
-		$this->delete_image("teasers", array ("image_sml", "image_big"), $id);
+		$this->delete_image_asowner("teasers", array ("image_sml", "image_big"), $id);
 	}
 }
 ?>
